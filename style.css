@@ -121,8 +121,9 @@ footer{
 }
 
 .footer-content{
-    background-color: gray;
+    background-color: rgb(31, 176, 243);
     max-width: 600px;
+    min-height: 50px;
     margin: auto;
 }
 .social-media{
@@ -145,5 +146,23 @@ hr{
     background-color: aliceblue;
     height: 2px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.logo-footer{
+    background-color: rgb(230, 121, 121);
+    max-height: 30px;
+    width: 50px;
+    
+
+}
+.bottone-footer{
+    background-color: rgb(230, 121, 121);
+    max-height: 30px;
+    width: 70px;
+}
+.container-flex-footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  perche quando metto questo proprieta spariscono i div*/
 }
