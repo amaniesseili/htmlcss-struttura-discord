@@ -8,37 +8,34 @@
     background-color: rgb(121, 245, 245);
     min-height: 120px;
 }
-
 .container-flex{
     display: flex;
-
 }
-
 .nav-container{
     max-width: 900px;
     margin: auto;
     padding-top: 25px;
-    
 }
+
 
 .logo{
     background-color: orange;
     height: 70px;
     width: 200px;
 }
-
 .menu{
     background-color: rgb(243, 180, 64);
     height: 70px;
     /* width: 200px;  se metto flex grow nn serve piu mettere la larghezza? */
     flex-grow: 1;
 }
-
 .login{
     background-color: orange;
     height: 70px;
     width: 200px;
 }
+
+/* banner */
 
 .banner-container{
     background-color: rgb(57, 86, 228);
@@ -99,7 +96,7 @@
 }
 
 
-/* copy and past section 1 to create section 3  */
+/* copy and past section 1 to create section3 in HTML, SAME CSS  */
 
 /* main/green container/section 4 */
 
@@ -113,4 +110,37 @@
     max-width: 600px;
     min-height: 400px;
     margin: auto;
+}
+
+/* footer */
+
+.footer-bg{
+    background-color: rgb(81, 79, 79);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-content{
+    background-color: gray;
+    max-width: 600px;
+    margin: auto;
+}
+.social-media{
+    background-color: rgb(230, 107, 107);
+    min-height: 200px;
+    flex-grow: 1;
+}
+.contact{
+    background-color: aqua;
+    width: 100px;
+}
+
+.light-color{
+    background-color: rgb(93, 208, 208);
+}
+.container-flex{
+    display: flex;
+}
+hr{
+    color: aliceblue;
+    height: 5px;
 }
