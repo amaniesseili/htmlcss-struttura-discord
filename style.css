@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar{
+    background-color: rgb(121, 245, 245);
+    min-height: 120px;
+}
+
+.container-flex{
+    display: flex;
+
+}
+
+.nav-container{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+
+.logo{
+    background-color: orange;
+    height: 70px;
+    width: 200px;
+}
+
+.menu{
+    background-color: rgb(243, 180, 64);
+    height: 70px;
+    /* width: 200px;  se metto flex grow nn serve piu mettere la larghezza? */
+    flex-grow: 1;
+}
+
+.login{
+    background-color: orange;
+    height: 70px;
+    width: 200px;
+}
+
+.banner-container{
+    background-color: rgb(57, 86, 228);
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.banner-content{
+    background-color: rgb(237, 118, 200);
+    min-height: 200px;
+    width: 600px; 
+    margin: auto;
+}
+
+/* main/white-bg/section1 */
+
+.white-bg{
+    background-color:white;
+    min-height: 300px;
+    padding-top: 50px;
+}
+.white-bg-content{
+    background-color: rgb(158, 155, 157);
+    min-height: 200px;
+    width: 600px; 
+    margin: auto;
+}
+.img{
+    background-color: rgb(240, 166, 224);
+    height:200px;
+    width: 200px;
+}
+.text{
+    background-color: rgb(70, 156, 231);
+    height: 200px;
+    width: 200px;
+    flex-grow: 1;
+}
+.container-flex-white{
+    display: flex;
+}
+
+/* main/gray/bg/ section2*/
+
+.gray-bg{
+    background-color:rgb(242, 233, 233);
+    min-height: 300px;
+    padding-top: 50px;
+}
+.gray-bg-content{
+    background-color: rgb(158, 155, 157);
+    min-height: 200px;
+    width: 600px; 
+    margin: auto;
+}
+.container-flex-gray{
+    display: flex;
+}
+
+
+/* copy and past section 1 to create section 3  */
+
+/* main/green container/section 4 */
+
+.gray-bg-green-content{
+    background-color:rgb(242, 233, 233);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.green-bg-content{
+    background-color: green;
+    max-width: 600px;
+    min-height: 400px;
+    margin: auto;
+}
